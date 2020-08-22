@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  alpine:
+    build:
+      context: .
+    image: ashbase/alpine:1.0.0
+    labels:
+      - "com.augustash.description=August Ash Alpine Linux Base Image"
+      - "com.augustash.development-only"
